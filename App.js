@@ -4,20 +4,27 @@ import React, {useState} from 'react';
 
 
 export default function App() {
-  
+// These 4 are used by the user directly for the first function
   const [pastureName, setpastureName] = useState('');
   const [pastureHeight, setpastureHeight] = useState('');
-  const [feedTonnage, setfeedTonnage] = useState('');
   const [horseCount, sethorseCount] = useState('');
   const [pastureSize, setpastureSize] = useState('');
+
+// this next line is for the next version where i help suggest densities  
   const [grassMix, setgrassMix] = useState('');
+
+// These are constants that for now they cant access and will be changed in the software. 
   const [percentBodyWeight, setpercentBodyWeight] = useState('');
   const [averageHorseWeight, setaverageHorseWeight] = useState('');
+// primarily for the second funtion. 
   const [fieldDensity, setfieldDensity] = useState('');
+  const [feedTonnage, setfeedTonnage] = useState('');
 
 
+// this function is the main point. It should return an integer but i need to put it in a better location to function properly. 
   const feedDays = ((pastureSize * (pastureHeight * 200) * 0.5  )/(horseCount * averageHorseWeight * percentBodyWeight))
 
+// I want this to only run if all its values are inputed. and i want it to run on a seperate page. 
   const tonsDryFeed = pastureSize*pastureHeight*grassMix
 
 
@@ -29,6 +36,7 @@ export default function App() {
         Welcome to the Pasture Manager!
       </Text>
       
+      {/* These inputs are for the user to add info then they will be submitted and added to the screen. */}
       <TextInput
         style={{height: 50}}
         
