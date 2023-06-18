@@ -4,13 +4,14 @@ import React, {useState} from 'react';
 
 
 export default function App() {
+  
   const [pastureName, setpastureName] = useState('');
   const [pastureHeight, setpastureHeight] = useState('');
   const [feedTonnage, setfeedTonnage] = useState('');
   const [horseCount, sethorseCount] = useState('');
   const [pastureSize, setpastureSize] = useState('');
   const [grassMix, setgrassMix] = useState('');
-  const [percentBodyWeight, setpercentBodyWeight] = useState(0.02);
+  const [percentBodyWeight, setpercentBodyWeight] = useState('');
   const [averageHorseWeight, setaverageHorseWeight] = useState('');
   const [fieldDensity, setfieldDensity] = useState('');
 
@@ -41,7 +42,7 @@ export default function App() {
         style={{height: 50}}
         
         placeholder="Enter Field lbs/in"
-        onChangeText={newFieldDensity => setText(newFieldDensity)}
+        onChangeText={newFieldDensity => setfieldDensity(newFieldDensity)}
         defaultValue={fieldDensity}
       />
 
