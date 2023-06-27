@@ -1,0 +1,36 @@
+ [
+    {
+        "name": "horse",
+        "breed": "quarter horse",
+        "bred": "false",
+        "averageweight": 1000,
+        "hayPerDaylbs": 25,
+        "animalUnit": 1.25,
+        "percentBodyWeightConsumed": 0.02
+    
+
+    },
+
+    {
+        "name": "cow",
+        "breed": "angus",
+        "bred": "true",
+        "averageweight": 1410,
+        "hayPerDaylbs": 20,
+        "animalUnit": 1,
+        "percentBodyWeightConsumed": 0.02
+    
+
+    },
+    {
+        "name": "goat",
+        "breed": "nubian",
+        "bred": "true",
+        "averageweight": 175,
+        "hayPerDaylbs": 5,
+        "animalUnit": 0.2,
+        "percentBodyWeightConsumed": 0.035
+    
+
+    }
+ ]
