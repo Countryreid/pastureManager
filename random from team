@@ -1,0 +1,24 @@
+// import '../styles/sidebar.css'
+// // import profileImg from '../images/profileImages/'
+// import profile1 from '../images/profileImages/pexels-brandan-saviour-2741701.jpg';
+// import profile2 from '../images/profileImages/pexels-ketut-subiyanto-4350178.jpg';
+// import profile3 from '../images/profileImages/pexels-leeloo-thefirst-4542178.jpg';
+// import profile4 from '../images/profileImages/pexels-sinitta-leunen-6652928.jpg';
+// import {  collection, doc, setDoc } from "firebase/firestore";
+// import { db } from "../utils/firebase";
+// import { useEffect } from 'react';
+
+// export default function SideBar () {
+
+//   async function getPosts() {
+//     const postsRef = db.collection('Posts');
+//     const snapshot = await postsRef.get();
+//     snapshot.forEach(doc => {
+//       console.log(doc.id, '=>', doc.data());
+//     });
+//   }
+
+//   useEffect(() => {
+//     getPosts();
+//   })
+  

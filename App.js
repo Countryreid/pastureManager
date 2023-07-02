@@ -1,6 +1,37 @@
+
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, TextInput } from 'react-native';
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
+import {db} from "../pastureManager/pasturemanager-bf874-fe1e90e9a32d.json";
+
+// async function getAnimals(){
+//  let animals = [];
+//   const snapshot = await db.collection('animals').get();
+// snapshot.forEach((doc) => {
+//   animal = doc.data('breed');
+// });index.js
+// return snapshot
+async function getAnimals() {
+  let animals = [];
+  const snapshot = await db.collection('animals').get();
+  snapshot.forEach((doc) => {
+    animals.push(doc.data().breed);
+  });
+  return animals;
+};
+
+const newanimal = db.collection('animals').doc('cow');
+
+await newanimal.set({
+  "name": "cow",
+  "breed": "angus",
+  "bred": "true",
+  "averageweight": 1410,
+  "hayPerDaylbs": 20,
+  "animalUnit": 1,
+  "percentBodyWeightConsumed": 0.02
+});index.js
+
 
 
 export default function App() {
@@ -26,7 +57,17 @@ export default function App() {
 
 // I want this to only run if all its values are inputed. and i want it to run on a seperate page. 
   const tonsDryFeed = pastureSize*pastureHeight*grassMix
+  // var animal1 = [];
+  // animal1 = getAnimals();
+  const [animal1, setAnimal1] = useState([]);
 
+useEffect(() => {
+  const fetchAnimals = async () => {
+    const animals = await getAnimals();
+    setAnimal1(animals);
+  };
+  fetchAnimals();
+}, []);
 
   return (
    
@@ -81,6 +122,19 @@ export default function App() {
         <Text style={{padding: 10, fontSize: 15}}>
         The {grassMix} pasture is providing {tonsDryFeed} pounds of hay. 
         </Text> 
+
+        <Text style={{padding: 10, fontSize: 15}}>
+        The animal is {}. 
+        </Text> 
+        <Text style={{ padding: 10, fontSize: 15 }}>
+
+         The animals are:
+         {animal1.map((animal, index) => (
+           <Text key={index}>{animal} </Text>
+         ))}
+        </Text>
+        
+
        
     
 
@@ -100,5 +154,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-
-
