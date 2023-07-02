@@ -20,17 +20,17 @@ async function getAnimals() {
   return animals;
 };
 
-const newanimal = db.collection('animals').doc('cow');
+// const newanimal = db.collection('animals').doc('cow');
 
-await newanimal.set({
-  "name": "cow",
-  "breed": "angus",
-  "bred": "true",
-  "averageweight": 1410,
-  "hayPerDaylbs": 20,
-  "animalUnit": 1,
-  "percentBodyWeightConsumed": 0.02
-});index.js
+// await newanimal.set({
+//   "name": "cow",
+//   "breed": "angus",
+//   "bred": "true",
+//   "averageweight": 1410,
+//   "hayPerDaylbs": 20,
+//   "animalUnit": 1,
+//   "percentBodyWeightConsumed": 0.02
+// });index.js
 
 
 

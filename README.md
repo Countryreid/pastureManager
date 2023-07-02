@@ -1,35 +1,45 @@
 # Overview
 
-I really want to be apart of the ag techonology industry. I want to learn how build and plan software. I want to be apart of the transition into precision ag. For this reason i wanted to build an app. 
+{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}I am trying to build an app that helps farmers to manage pastures based on the animals they have. The database is used to store the general numbers for all these animals and then be able to add new one to the individuals farm.
 
-This app is meant to calculate the days horses can stay on feed. It is written in react native so it can be used for both ios and android. 
+The program is a mobile app build in react native. The database is firebase. This is a cloud database in hopes that all will be able to use it when i add the program. 
 
-I want to create an app after school. I really think that i can build this and sell it. I wanted to get it started now and get through the process to learn how to build an app. 
 
-I couldnt link the videos. The first is the code. The second is the app running on my phone. 
-[Pasture managment code](https://youtu.be/i6oQu-C33jk)
-[Finished Pasture Management](https://youtu.be/3vO2lUDRtSQ)
+
+
+
+{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
+
+
+[Software Demo Video](https://youtu.be/n-Grvi82XWo)
+[live app demo](https://youtu.be/eM1p_dSzG2U)
+
+# Cloud Database
+
+I am using a firbase database. It is actually a firestore wich is a simpler version that is serverless. This allows it to directly connect to the project without creating an API
+
+The database now has a collection called animals. This holds documents about the general animal's data. The next step will be to create individual farms and then each farm will have a collection of animals that are on the farm and their sizeing data. 
+
 
 # Development Environment
 
-Vs code
-React native documentation. 
-expo go app for android viewing. 
 
+Firestore/firebase documentaion
+Chat GPT was a teacher. I used it to understand how to think through the logic. 
+I used many teachers to help understand how a database is connected. 
 
-React Native
-Javascript
-
+The program is written in Javascript in React JS.
+Node was used to run react. 
 
 # Useful Websites
 
-* [React documentation](https://reactnative.dev/docs/handling-text-input)
-* [Web dev video](https://www.youtube.com/watch?v=Rh3tobg7hEo&t=1456s)
+{Make a list of websites that you found helpful in this project}
+
+- [firebase documentation](https://firebase.google.com/docs/firestore/quickstart)
+- [firestore tutorial](https://firebase.google.com/docs/firestore)
 
 # Future Work
 
-
-* A button is needed for a submit
-* Inputs dont calculate
-* make multiple pages for the calculations
-* clean up the code and seperate into classes or functions
+- Add button to add new animal and create new farm. 
+- Add a way to change the animal to a previously created animal. 
+- Fix the output to actually work through all the animals. 

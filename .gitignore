@@ -15,3 +15,16 @@ web-build/
 
 # Temporary files created by Metro to check the health of the file watcher
 .metro-health-check*
+{
+  "type": "service_account",
+  "project_id": "pasturemanager-bf874",
+  "private_key_id": "fe1e90e9a32dc7468862ba681e0a9e25df0f9f93",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDC/jwJtywZaYae\nMdxpiHHhyJhGkX70tp7tr78+AKMUZoaHZlkOvdpjNs6vfnX0ply5Nxov26UUBLFT\nZ8vo32qfs3CJ4wwVYym5QAKo6si4XMsazGFa4EmdKZUxtsvyFVt5Y+ZEuVC7EOCG\nM0LYf29mIwgl7EJGQGyfGY6TJL2fBvSvfmgWQEg65QPS+8UuiqT7qYcu0GBq66UM\noFNvnrWpDdpyaUKP6R1uZX5ztNjS5+6AUF9wkTEaU7hnqmFQUVOcJqRjneLg1zFo\nEuqQjCT4bKJO+QJTomHdXuej4jTFlYGY8ljRbsHQDZnEjwlMqsAxaD/oMrhYMMa7\nXOGrBuEhAgMBAAECggEAC7fIPxu4PVc1eSp9KMTjthouR3hdISLb2mQIObdDVZmj\nLj4Y7j07w2BS66Itf7wjIJjGfLeF/DXbe6wGSZpqf4oiolCoBF2DD4BAoKrKUOT3\nqia714CYv+Z0sin+Z8//gSQfHYRm7PTyzzHDq7u9w60pg1DnOy5KMMXyBtbrg8PG\nA3NgGnRD63fEaPkM4w1pROxgtpgWOImCbszMNe0KVaK+NfGKnZl/HD/LLu3etohU\nXFai/0hMqpqxHzb7xjs/WrMQEo6uXJ8fNkjPNQgU5PlFl8wZwcJXtPJVdYyDm6Mq\nT2RD/GV9PreXWgVFEkBUISIx106/KVHndE4vsc/UiQKBgQDjFHoRAj5aT3JGItCs\nJ/gnqdvJA9QoG5ui1mYvEcYR5rZNqav7x69zpxTxVpMJ+rxmezK77QNc1rINkMoO\nOY5MQwDDO9tYVazVsAMCubAMRLbdag1qEA/84JT6F+OtCMY3SWDqDsDhcyIL8Plc\nEbvSBvflMDsEzvHuCcuOYIAiCQKBgQDb05/JnRZ8c+PqmL78MNxTlUgn8Xz7yyZP\n6stScjlgm/6GMuDgjucnlLvImZkkMIMpAm0v0QyHRKPe7YW81yPoYvoI3QY4lvKy\nA7TGL+BumQhKzxVe9UNWtX7uNm4Dg8kklwxqSgnFaA3ctvfQksf4QGeQiBJzj++2\nuZHpDfWsWQKBgHY9elYS8f66cYldpYSPB2M3yg7AZJ9ByOegdfK6cYVuuax01e2z\ni4NQE9KavtOqcKF4MvGxt1eHH416wAtqItNI7EO8jjlP20Ald1va7nVk7kcaasO4\ne2q0Uj5rZAz8jaHKHqGhbwO1nJvVLTKotUDmifwYAhM94rGM/iYzz2RpAoGALPCo\nm/kHXc37bDxp3vjGMjg0liXiXT98x53Cj0pWvI9ni1vfaUkNrKPVd/8eta1NQxcB\n52KfYw//SFXan26EIsAJScKVwP/rAcWMMXAcO8ABV/nZ7p3JdHKKTnzGJOXOOzK+\nEQSt1rOdEeA97V/0jaXtBjkrPIDSitKJJ9H4xZECgYEAsNsKZeFO/MqEiZRo+mB5\n1M/HGy+S4ByyU7Z7Sl99HMkhSnTbX+XKfmVKR5zbFZw3ogEPEz9ObUmYF1tJmBZz\n+qE7rzC3OYLCrYINHm/MsaHbYlVQlkFGNtoTy08bu2WTJHAcfrJBeFoYwdzXd1cI\nGrxVJTdODaZS0TuSrv3LNPk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ui4n6@pasturemanager-bf874.iam.gserviceaccount.com",
+  "client_id": "116185068652053668759",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ui4n6%40pasturemanager-bf874.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
